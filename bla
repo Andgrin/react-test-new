@@ -1,0 +1,15 @@
+<div class="col-12 col-md-9 pull-md-3 bd-content">
+        <#if errormsg??>
+            <div class="alert alert-danger" role="alert">
+                <strong>Ошибка!</strong> ${errormsg}
+            </div>
+        </#if>
+            <form method="post">
+                <div class="form-group row">
+                    <label for="example-text-input" class="col-2 col-form-label">Text</label>
+                    <div class="col-10">
+                        <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+                    </div>
+                </div>
+            </form>
+        </div>
